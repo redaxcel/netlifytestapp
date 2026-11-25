@@ -1,7 +1,7 @@
 ---
 title: "Pixel Perfect Websites | Code Stitch Web Designs | Denver, CO"
 description: "Meta description for the page"
-preloadImg: "/assets/images/landing.jpg"
+preloadImg: "/assets/images/landing.webp"
 permalink: "/"
 tags: "sitemap" # Sitemap will use all pages in content/, due to content.json. As index.html is not included in content/ we need to manually add the sitemap tag to this page (only).
 eleventyNavigation:
@@ -112,12 +112,12 @@ eleventyNavigation:
             />
             <source
                 media="(min-width: 601px)"
-                srcset="/assets/images/landing.jpg"
+                srcset="/assets/images/landing.webp"
             />
-            <img
+            <img srcset="/assets/images/landing-800w.webp 800w, /assets/images/landing-480w.webp 480w, /assets/images/landing.webp 2500w" sizes="(max-width: 768px) 100vw, 1200px"
                 aria-hidden="true"
                 decoding="async"
-                src="/assets/images/landing.jpg"
+                src="/assets/images/landing.webp"
                 alt="new home"
                 width="2500"
                 height="1667"
@@ -134,7 +134,7 @@ eleventyNavigation:
         <!-- Get Icons From flaticon.com -->
         <div class="card">
             <picture>
-                <img
+                <img loading="lazy"
                     aria-hidden="true"
                     decoding="async"
                     src="/assets/svgs/service1.svg"
@@ -151,7 +151,7 @@ eleventyNavigation:
         </div>
         <div class="card">
             <picture>
-                <img
+                <img loading="lazy"
                     aria-hidden="true"
                     decoding="async"
                     src="/assets/svgs/service2.svg"
@@ -168,7 +168,7 @@ eleventyNavigation:
         </div>
         <div class="card">
             <picture>
-                <img
+                <img loading="lazy"
                     aria-hidden="true"
                     decoding="async"
                     src="/assets/svgs/service3.svg"
@@ -196,16 +196,16 @@ eleventyNavigation:
                 <picture class="cs-picture cs-picture1">
                     <source
                         media="(max-width: 600px)"
-                        srcset="/assets/images/cabinets2-m.jpg"
+                        srcset="/assets/images/cabinets2-m.webp"
                     />
                     <source
                         media="(min-width: 601px)"
-                        srcset="/assets/images/cabinets2.jpg"
+                        srcset="/assets/images/cabinets2.webp"
                     />
-                    <img
+                    <img srcset="/assets/images/cabinets2-800w.webp 800w, /assets/images/cabinets2-480w.webp 480w, /assets/images/cabinets2.webp 1920w" sizes="(max-width: 768px) 100vw, 1200px"
                         aria-hidden="true"
                         decoding="async"
-                        src="/assets/images/cabinets2.jpg"
+                        src="/assets/images/cabinets2.webp"
                         alt="cabinets"
                         loading="lazy"
                         width="400"
@@ -215,16 +215,16 @@ eleventyNavigation:
                 <picture class="cs-picture cs-picture2">
                     <source
                         media="(max-width: 600px)"
-                        srcset="/assets/images/construction-m.jpg"
+                        srcset="/assets/images/construction-m.webp"
                     />
                     <source
                         media="(min-width: 601px)"
-                        srcset="/assets/images/construction.jpg"
+                        srcset="/assets/images/construction.webp"
                     />
-                    <img
+                    <img srcset="/assets/images/construction-480w.webp 480w, /assets/images/construction.webp 611w" sizes="(max-width: 768px) 100vw, 611px"
                         aria-hidden="true"
                         decoding="async"
-                        src="/assets/images/construction.jpg"
+                        src="/assets/images/construction.webp"
                         alt="house"
                         loading="lazy"
                         width="400"
@@ -284,16 +284,16 @@ eleventyNavigation:
                 <picture class="cs-picture cs-picture1">
                     <source
                         media="(max-width: 600px)"
-                        srcset="/assets/images/construction-m.jpg"
+                        srcset="/assets/images/construction-m.webp"
                     />
                     <source
                         media="(min-width: 601px)"
-                        srcset="/assets/images/construction.jpg"
+                        srcset="/assets/images/construction.webp"
                     />
-                    <img
+                    <img srcset="/assets/images/construction-480w.webp 480w, /assets/images/construction.webp 611w" sizes="(max-width: 768px) 100vw, 611px"
                         aria-hidden="true"
                         decoding="async"
-                        src="/assets/images/construction.jpg"
+                        src="/assets/images/construction.webp"
                         alt="house"
                         loading="lazy"
                         width="400"
@@ -303,16 +303,16 @@ eleventyNavigation:
                 <picture class="cs-picture cs-picture2">
                     <source
                         media="(max-width: 600px)"
-                        srcset="/assets/images/cabinets2-m.jpg"
+                        srcset="/assets/images/cabinets2-m.webp"
                     />
                     <source
                         media="(min-width: 601px)"
-                        srcset="/assets/images/cabinets2.jpg"
+                        srcset="/assets/images/cabinets2.webp"
                     />
-                    <img
+                    <img srcset="/assets/images/cabinets2-800w.webp 800w, /assets/images/cabinets2-480w.webp 480w, /assets/images/cabinets2.webp 1920w" sizes="(max-width: 768px) 100vw, 1200px"
                         aria-hidden="true"
                         decoding="async"
-                        src="/assets/images/cabinets2.jpg"
+                        src="/assets/images/cabinets2.webp"
                         alt="cabinets"
                         loading="lazy"
                         width="400"
@@ -364,16 +364,16 @@ eleventyNavigation:
                     <picture class="cs-picture cs-picture1">
                         <source
                             media="(max-width: 600px)"
-                            srcset="/assets/images/portfolio/port1-m.jpg"
+                            srcset="/assets/images/portfolio/port1-m.webp"
                         />
                         <source
                             media="(min-width: 601px)"
-                            srcset="/assets/images/portfolio/port1.jpg"
+                            srcset="/assets/images/portfolio/port1.webp"
                         />
-                        <img
+                        <img srcset="/assets/images/portfolio/port1-480w.webp 480w, /assets/images/portfolio/port1.webp 840w" sizes="(max-width: 768px) 100vw, 840px"
                             aria-hidden="true"
                             decoding="async"
-                            src="/assets/images/portfolio/port1.jpg"
+                            src="/assets/images/portfolio/port1.webp"
                             alt="new hallway"
                             loading="lazy"
                             width="400"
@@ -383,16 +383,16 @@ eleventyNavigation:
                     <picture class="cs-picture cs-picture2">
                         <source
                             media="(max-width: 600px)"
-                            srcset="/assets/images/portfolio/port4-m.jpg"
+                            srcset="/assets/images/portfolio/port4-m.webp"
                         />
                         <source
                             media="(min-width: 601px)"
-                            srcset="/assets/images/portfolio/port4.jpg"
+                            srcset="/assets/images/portfolio/port4.webp"
                         />
-                        <img
+                        <img srcset="/assets/images/portfolio/port4-480w.webp 480w, /assets/images/portfolio/port4.webp 840w" sizes="(max-width: 768px) 100vw, 840px"
                             aria-hidden="true"
                             decoding="async"
-                            src="/assets/images/portfolio/port4.jpg"
+                            src="/assets/images/portfolio/port4.webp"
                             alt="new home construction"
                             loading="lazy"
                             width="400"
@@ -402,16 +402,16 @@ eleventyNavigation:
                     <picture class="cs-picture cs-picture3">
                         <source
                             media="(max-width: 600px)"
-                            srcset="/assets/images/portfolio/port7-m.jpg"
+                            srcset="/assets/images/portfolio/port7-m.webp"
                         />
                         <source
                             media="(min-width: 601px)"
-                            srcset="/assets/images/portfolio/port7.jpg"
+                            srcset="/assets/images/portfolio/port7.webp"
                         />
-                        <img
+                        <img srcset="/assets/images/portfolio/port7-480w.webp 480w, /assets/images/portfolio/port7.webp 840w" sizes="(max-width: 768px) 100vw, 840px"
                             aria-hidden="true"
                             decoding="async"
-                            src="/assets/images/portfolio/port7.jpg"
+                            src="/assets/images/portfolio/port7.webp"
                             alt="building a new wall"
                             loading="lazy"
                             width="400"
@@ -425,16 +425,16 @@ eleventyNavigation:
                     <picture class="cs-picture cs-picture1">
                         <source
                             media="(max-width: 600px)"
-                            srcset="/assets/images/portfolio/port2-m.jpg"
+                            srcset="/assets/images/portfolio/port2-m.webp"
                         />
                         <source
                             media="(min-width: 601px)"
-                            srcset="/assets/images/portfolio/port2.jpg"
+                            srcset="/assets/images/portfolio/port2.webp"
                         />
-                        <img
+                        <img srcset="/assets/images/portfolio/port2-480w.webp 480w, /assets/images/portfolio/port2.webp 840w" sizes="(max-width: 768px) 100vw, 840px"
                             aria-hidden="true"
                             decoding="async"
-                            src="/assets/images/portfolio/port2.jpg"
+                            src="/assets/images/portfolio/port2.webp"
                             alt="new kitchen"
                             loading="lazy"
                             width="400"
@@ -444,16 +444,16 @@ eleventyNavigation:
                     <picture class="cs-picture cs-picture2">
                         <source
                             media="(max-width: 600px)"
-                            srcset="/assets/images/portfolio/port5-m.jpg"
+                            srcset="/assets/images/portfolio/port5-m.webp"
                         />
                         <source
                             media="(min-width: 601px)"
-                            srcset="/assets/images/portfolio/port5.jpg"
+                            srcset="/assets/images/portfolio/port5.webp"
                         />
-                        <img
+                        <img srcset="/assets/images/portfolio/port5-480w.webp 480w, /assets/images/portfolio/port5.webp 840w" sizes="(max-width: 768px) 100vw, 840px"
                             aria-hidden="true"
                             decoding="async"
-                            src="/assets/images/portfolio/port5.jpg"
+                            src="/assets/images/portfolio/port5.webp"
                             alt="apartment addition"
                             loading="lazy"
                             width="400"
@@ -463,16 +463,16 @@ eleventyNavigation:
                     <picture class="cs-picture cs-picture3">
                         <source
                             media="(max-width: 600px)"
-                            srcset="/assets/images/portfolio/port8-m.jpg"
+                            srcset="/assets/images/portfolio/port8-m.webp"
                         />
                         <source
                             media="(min-width: 601px)"
-                            srcset="/assets/images/portfolio/port8.jpg"
+                            srcset="/assets/images/portfolio/port8.webp"
                         />
-                        <img
+                        <img srcset="/assets/images/portfolio/port8-480w.webp 480w, /assets/images/portfolio/port8.webp 840w" sizes="(max-width: 768px) 100vw, 840px"
                             aria-hidden="true"
                             decoding="async"
-                            src="/assets/images/portfolio/port8.jpg"
+                            src="/assets/images/portfolio/port8.webp"
                             alt="kew kitchen cabinets"
                             loading="lazy"
                             width="400"
@@ -486,16 +486,16 @@ eleventyNavigation:
                     <picture class="cs-picture cs-picture1">
                         <source
                             media="(max-width: 600px)"
-                            srcset="/assets/images/portfolio/port3-m.jpg"
+                            srcset="/assets/images/portfolio/port3-m.webp"
                         />
                         <source
                             media="(min-width: 601px)"
-                            srcset="/assets/images/portfolio/port3.jpg"
+                            srcset="/assets/images/portfolio/port3.webp"
                         />
-                        <img
+                        <img srcset="/assets/images/portfolio/port3-480w.webp 480w, /assets/images/portfolio/port3.webp 840w" sizes="(max-width: 768px) 100vw, 840px"
                             aria-hidden="true"
                             decoding="async"
-                            src="/assets/images/portfolio/port3.jpg"
+                            src="/assets/images/portfolio/port3.webp"
                             alt="new kitchen"
                             loading="lazy"
                             width="400"
@@ -505,16 +505,16 @@ eleventyNavigation:
                     <picture class="cs-picture cs-picture2">
                         <source
                             media="(max-width: 600px)"
-                            srcset="/assets/images/portfolio/port6-m.jpg"
+                            srcset="/assets/images/portfolio/port6-m.webp"
                         />
                         <source
                             media="(min-width: 601px)"
-                            srcset="/assets/images/portfolio/port6.jpg"
+                            srcset="/assets/images/portfolio/port6.webp"
                         />
-                        <img
+                        <img srcset="/assets/images/portfolio/port6-480w.webp 480w, /assets/images/portfolio/port6.webp 840w" sizes="(max-width: 768px) 100vw, 840px"
                             aria-hidden="true"
                             decoding="async"
-                            src="/assets/images/portfolio/port6.jpg"
+                            src="/assets/images/portfolio/port6.webp"
                             alt="apartment addition"
                             loading="lazy"
                             width="400"
@@ -524,16 +524,16 @@ eleventyNavigation:
                     <picture class="cs-picture cs-picture3">
                         <source
                             media="(max-width: 600px)"
-                            srcset="/assets/images/portfolio/port9-m.jpg"
+                            srcset="/assets/images/portfolio/port9-m.webp"
                         />
                         <source
                             media="(min-width: 601px)"
-                            srcset="/assets/images/portfolio/port9.jpg"
+                            srcset="/assets/images/portfolio/port9.webp"
                         />
-                        <img
+                        <img srcset="/assets/images/portfolio/port9-480w.webp 480w, /assets/images/portfolio/port9.webp 840w" sizes="(max-width: 768px) 100vw, 840px"
                             aria-hidden="true"
                             decoding="async"
-                            src="/assets/images/portfolio/port9.jpg"
+                            src="/assets/images/portfolio/port9.webp"
                             alt="kew kitchen cabinets"
                             loading="lazy"
                             width="400"
@@ -568,7 +568,7 @@ eleventyNavigation:
                         aria-hidden="true"
                         loading="lazy"
                         decoding="async"
-                        src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/profile5.png"
+                        src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/profile5.webp"
                         alt="profile picture"
                         width="80"
                         height="80"
@@ -602,7 +602,7 @@ eleventyNavigation:
                         aria-hidden="true"
                         loading="lazy"
                         decoding="async"
-                        src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/profile-4.png"
+                        src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/profile-4.webp"
                         alt="profile picture"
                         width="80"
                         height="80"
